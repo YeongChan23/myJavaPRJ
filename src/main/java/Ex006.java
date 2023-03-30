@@ -8,7 +8,7 @@ public class Ex006 {
                 i = 0;
                 k++;
             } else {
-                System.out.printf("%d X %d = %d ", k, i, k * i);
+                System.out.printf("%d X %d = %d ", k, i, i * k);
             }
             System.out.printf("\n");
         }
