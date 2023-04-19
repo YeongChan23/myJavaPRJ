@@ -1,9 +1,10 @@
 import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
         int arr[] = new int[5]; //5개 받을 수 있는 배열 생성
         int i;
-        int max = 0, min = 0, sum= 0;
+        int max = 0, min = 0, sum = 0;
         Scanner sc = new Scanner(System.in); //정수를 받을 수 있는 객체 생성
 
         System.out.printf("다섯개의 정수를 입력하세요.\n");
@@ -14,7 +15,7 @@ public class Test {
             {
                 max = arr[0];      // 배열의 첫번째 원소로 초기화 해주지 않으면
                 min = arr[0];      // min에서 입력받았을때 0보다 큰값을 입력받으면 에러남
-                if (max< arr[i]) { //최대값
+                if (max < arr[i]) { //최대값
                     max = arr[i];
                 }
                 if (min > arr[i]) { //최소값
